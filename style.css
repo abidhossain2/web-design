@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+    --color_1: #5BB5A2;
+    --color_2: #E8F2EE;
+    --color_3: #F1DFDF;
+    --color_4: #DFE1F1;
+    --color_5: #DFEAF1;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* header style */
+.menu_bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 91px;
+    padding: 24px 0px 24px 0px;
+    gap: 10px;
+
+}
+
+
+.logo_name {
+    color: var(--color_1);
+    font-size: 32px;
+    line-height: 100%;
+    margin-left: 140px;
+    margin-top: 29.5px;
+    margin-bottom: 29.5px;
+    cursor: pointer;
+}
+
+.menu_link ul{
+    text-align: center;
+}
+
+.menu_link ul li{
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+.menu_link ul li a{
+    font-size: 16px;
+    color: #1A191E;
+    padding: 8px 8px 8px 12px;
+    border-radius: 6px;
+}
+.menu_link ul li:nth-child(2) a{
+    background-color: #F8F8F8;
+}
+.authentication button:nth-child(1){
+    margin-right: 32px;
+    color: var(--color_1);
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.authentication button:nth-child(2){
+    padding: 12px 16px 12px 16px;
+    background-color: var(--color_1);
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.authentication button:nth-child(2):hover{
+    background-color: var(--color_2);
+    color: var(--color_1);
+}
