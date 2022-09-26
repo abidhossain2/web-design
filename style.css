@@ -19,7 +19,10 @@ li{
 a{
     text-decoration: none;
 }
-/* header style */
+
+
+/* -----------header style---------- */
+
 .menu_bar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,7 +71,7 @@ a{
     cursor: pointer;
 }
 
-.authentication button:nth-child(2){
+.acnt-btn{
     padding: 12px 16px 12px 16px;
     background-color: var(--color_1);
     font-size: 15px;
@@ -79,7 +82,84 @@ a{
     transition: all 0.6s;
 }
 
-.authentication button:nth-child(2):hover{
+.acnt-btn:hover{
     background-color: var(--color_2);
     color: var(--color_1);
+}
+
+
+/*--------- section 1 style ----------*/
+
+.section_1{
+    background-color: var(--color_2);
+    height: 868px;
+}
+
+.feature_section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature_txt_box{
+    margin-top: 128px;
+}
+
+.feature_section_txt{
+    width: 800px;
+    height: 80px;
+    text-align: center;
+}
+
+.feature_section_txt:nth-child(1){
+    height: 14px;
+    font-size: 20px;
+}
+.feature_section_txt:nth-child(2){
+    height: 80px;
+    font-size: 80px;
+}
+.feature_section_txt:nth-child(3){
+    padding: 22px;
+}
+.feature_section_txt:nth-child(4){
+    padding: 22px;
+}
+
+.feature_section_txt a{
+    color: var(--color_1);
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.section_2{
+    height: 1000px;
+}
+
+.card_container{
+    height: 500px;
+    margin-top: 145px;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 66px;
+}
+.card{
+    width: 300px;
+    height: 500px;
+}
+
+.card img:nth-child(1){
+    margin-top: 201px;
+}
+.card:nth-child(2) img{
+    margin-top: 106px;
+}
+.card:nth-child(3) img{
+    margin-top: 10px;
+}
+.card:nth-child(4) img{
+    margin-top: 106px;
+}
+.card:nth-child(5) img{
+    margin-top: 201px;
 }
