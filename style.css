@@ -139,10 +139,6 @@ a{
     margin-left: 32px;
 }
 
-.section_2{
-    height: 1000px;
-}
-
 .card_container{
     height: 500px;
     margin-top: 145px;
@@ -170,4 +166,65 @@ a{
 }
 .card:nth-child(5) img{
     margin-top: 203px;
+}
+
+
+/*------------ section 2 style -------------*/
+
+.section_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_container{
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 159px;
+}
+
+.section2_info{
+    width: 538px;
+    height: 460px;
+}
+
+.section2_info img{
+    margin-right: 20px;
+}
+
+.section2_info .text:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.section2_info .text:nth-child(2){
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+.section2_info .text:nth-child(3){
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.section2_info_rule{
+    display: flex;
+}
+.section2_info_rule_icon{
+    width: 45px;
+}
+.section2_info_rule_icon img{
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+.section2_info_rule_txt{
+    width: 200px;
+}
+.section2_info_rule_txt p{
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.section2_img{
+    width: 380px;
+    height: 800px;
 }
