@@ -169,9 +169,9 @@ a{
 }
 
 
-/*------------ section 2 style -------------*/
+/*------------ section2 & section3 style -------------*/
 
-.section_2{
+.section_x{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,45 +186,45 @@ a{
     margin-top: 159px;
 }
 
-.section2_info{
+.section_x_info{
     width: 538px;
     height: 460px;
 }
 
-.section2_info img{
+.section_x_info img{
     margin-right: 20px;
 }
 
-.section2_info .text:nth-child(1){
+.section_x_info .text:nth-child(1){
     font-size: 20px;
     margin-bottom: 8px;
 }
-.section2_info .text:nth-child(2){
+.section_x_info .text:nth-child(2){
     font-size: 64px;
     margin-bottom: 16px;
 }
-.section2_info .text:nth-child(3){
+.section_x_info .text:nth-child(3){
     font-size: 18px;
     margin-bottom: 32px;
 }
-.section2_info_rule{
+.section_x_info_rule{
     display: flex;
 }
-.section2_info_rule_icon{
+.section_x_info_rule_icon{
     width: 45px;
 }
-.section2_info_rule_icon img{
+.section_x_info_rule_icon img{
     margin-right: 20px;
     margin-bottom: 12px;
 }
-.section2_info_rule_txt{
+.section_x_info_rule_txt{
     width: 200px;
 }
-.section2_info_rule_txt p{
+.section_x_info_rule_txt p{
     font-size: 18px;
     margin-bottom: 22px;
 }
-.section2_img{
+.section_x_img{
     width: 380px;
     height: 800px;
 }
