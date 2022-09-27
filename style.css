@@ -234,6 +234,7 @@ a{
 
 .section_4{
     margin-top: 221px;
+    height: 181vh;
 }
 
 .section4_heading{
@@ -394,5 +395,103 @@ a{
 
 .category{
     font-size: 16px;
+    color: var(--color_1);
+}
+
+
+/*--------- section 5 style ---------*/
+
+.section_5{
+    margin-top: 160px;
+}
+
+/* .section_4{
+    margin-top: 221px;
+    height: 181vh;
+} */
+
+.section5_heading{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.section5_heading_txt{
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+.section5_txt{
+    font-size: 20px;
+    text-align: center;
+}
+.offer_container{
+    width: 1200px;
+    height: 700px;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer_card{
+    width: 355px;
+    height: 448px;
+    border-radius: 8px;
+}
+.offer_type{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.offer_type button{
+    font-size: 12px;
+    background-color: var(--color_1);
+    border: none;
+    color: var(--color_2);
+    width: 56px;
+    height: 22px;
+    border-radius: 4px;
+    padding: 0px 6px 0px 6px;
+    margin-left: 8px;
+}
+.offer_price{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.offer_txt{
+    width: 220px;
+    height: 70px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+.offer_price_type{
+    font-size: 16px;
+    margin-left: 8px;
+    color: var(--color_1);
+}
+.offer_img{
+    width: 355px;
+    height: 213px;
+    margin-bottom: 24px;
+}
+.offer_btn{
+    width: 355px;
+    height: 39px;
+    background-color: var(--color_1);
+    color: var(--color_2);
+    border-radius: 6px;
+    padding: 12px 16px 12px 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.offer_btn:hover{
+    background-color: var(--color_2);
     color: var(--color_1);
 }
