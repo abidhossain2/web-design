@@ -426,12 +426,11 @@ a{
 }
 .offer_container{
     width: 1200px;
-    height: 700px;
-    /* background-color: red; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 96px;
 }
 .offer_card{
     width: 355px;
@@ -494,4 +493,95 @@ a{
 .offer_btn:hover{
     background-color: var(--color_2);
     color: var(--color_1);
+}
+
+
+/*--------- section 6 style ---------*/
+
+.section6_container{
+    width: 1200px;
+    margin: 320px auto 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_section{
+    width: 600px;
+    height: 400px;
+}
+.QA_section{
+    width: 600px;
+    height: 400px;
+}
+.contact_question{
+    font-size: 64px;
+}
+.phone,.mail{
+    width: 370px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px 0px;
+}
+
+.phone_logo, .mail_logo{
+    width: 50px;
+    height: 50px;
+}
+
+.phone_number, .mail_address{
+    width: 314px;
+    height: 50px;
+    margin-left: 24px;
+}
+
+.contact_info{
+    font-size: 18px;
+}
+.contact_type{
+    font-size: 14px;
+    color: var(--color_1);
+}
+.support_box{
+    margin-top: 51px;
+}
+.support_link{
+    color: var(--color_1);
+    font-size: 18px;
+    cursor: pointer;
+}
+.support_link img{
+    margin-left: 12px;
+}
+.question{
+    width: 600px;
+    height: 61px;
+    border-bottom: 1px solid var(--color_2);
+    padding: 17px 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.question_4{
+    font-size: 20px;
+    width: 600px;
+    height: 61px;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.ans{
+    width: 600px;
+    height: 78px;
+    border-bottom: 1px solid var(--color_2);
+    font-size: 16px;
+    color: var(--color_1);
+}
+.question img{
+    width: 14px;
+    height: 14px;
+}
+.question_4 img{
+    width: 14px;
+    height: 14px;
 }
