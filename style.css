@@ -59,9 +59,16 @@ a{
     padding: 8px 8px 8px 12px;
     border-radius: 6px;
 }
+
 .menu_link ul li:nth-child(2) a{
     background-color: #F8F8F8;
 }
+
+.authentication{
+    display: flex;
+    justify-content: center;
+}
+
 .authentication button:nth-child(1){
     margin-right: 32px;
     color: var(--color_1);
@@ -139,27 +146,28 @@ a{
 .card_container{
     height: 500px;
     margin-top: 145px;
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 66px;
+    display:flex;
+    justify-content: space-between;
 }
 .card{
-    width: 300px;
+    width: 259px;
     height: 500px;
 }
-
+.card img{
+    width: 259px;
+}
 .card img:nth-child(1){
-    margin-top: 201px;
+    margin-top: 203px;
 }
 .card:nth-child(2) img{
-    margin-top: 106px;
+    margin-top: 138px;
 }
 .card:nth-child(3) img{
-    margin-top: 10px;
+    margin-top: 56px;
 }
 .card:nth-child(4) img{
-    margin-top: 106px;
+    margin-top: 138px;
 }
 .card:nth-child(5) img{
-    margin-top: 201px;
+    margin-top: 203px;
 }
