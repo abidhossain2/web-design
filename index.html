@@ -12,21 +12,39 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="menu_bar">
             <div class="logo menu_item">
                 <span class="logo_name">banquee</span>
             </div>
-            <div class="menu_link menu_item">
-                <ul>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Compare <img src="icons/downarrow.svg" alt=""></a></li>
-                    <li><a href="">Support</a></li>
-                    <li><a href="">Blog <img src="icons/downarrow.svg" alt=""></a></li>
-                </ul>
+            <div class="menu_link_container">
+                <div class="menu_link menu_item">
+                    <ul>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Compare <img src="icons/downarrow.svg" alt=""></a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Blog <img src="icons/downarrow.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="authentication menu_item">
+                    <button>Login</button>
+                    <button class="acnt-btn">Open Account</button>
+                </div>
             </div>
-            <div class="authentication menu_item">
-                <button>Login</button>
+
+            <div class="drop_menu">
+                <div class="hamburger_menu">
+                    <span class="line_1"></span>
+                    <span class="line_2"></span>
+                    <span class="line_3"></span>
+                </div>
+            </div>
+            <div class="dropdown_item">
+                <a href="">Features</a>
+                <a href="">Compare <img src="icons/downarrow.svg" alt=""></a>
+                <a href="">Support</a>
+                <a href="">Blog <img src="icons/downarrow.svg" alt=""></a>
+                <button class="login_btn">Login</button>
                 <button class="acnt-btn">Open Account</button>
             </div>
         </nav>
@@ -366,16 +384,40 @@
                     </div>
                 </div>
                 <div class="QA_section">
-                    <div class="question">How do I open an Banko account? <img src="icons/plus.svg" alt=""></div>
-                    <div class="question">How do I order a new card? <img src="icons/plus.svg" alt=""></div>
-                    <div class="question">How to change my account limits? <img src="icons/plus.svg" alt=""></div>
-                    <div class="question_4">How does Banko premium works?<img src="icons/cross.svg" alt=""></div>
-                    <div class="ans">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
-                        sociis natoque penatibus et magnis dis parturient.
+                    <div class="question_box">
+                        <div class="question">
+                            <p>How do I open an Banko account?</p> <img src="icons/plus.png" alt="">
+                        </div>
+                        
                     </div>
-                    <div class="question">Can I have two Banko accounts? <img src="icons/plus.svg" alt=""></div>
+                    <div class="question_box">
+                        <div class="question">
+                            <p>How do I order a new card?</p> <img src="icons/plus.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="question_box">
+                        <div class="question">
+                            <p>How to change my account limits?</p> <img src="icons/plus.png" alt="">
+                        </div>
+                       
+                    </div>
+                    <div class="question_4_container">
+                        <div class="question_4">
+                            <p>How does Banko premium works?</p>
+                            <img class="toggle" src="icons/cross.svg" alt="">
+                        </div>
+                        <div class="ans">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum
+                            sociis natoque penatibus et magnis dis parturient.
+                        </div>
+                    </div>
+                    <div class="question_box">
+                        <div class="question">
+                            <p>Can I have two Banko accounts?</p> <img src="icons/plus.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -421,7 +463,7 @@
         </div>
         <div class="sponsor">
             <div class="sponsor_box">
-                <p>©  Made by Pawel Gola - Powered by Webflow</p>
+                <p>© Made by Pawel Gola - Powered by Webflow</p>
             </div>
             <div class="sponsor_box">
                 <p>Impressum</p>
@@ -429,6 +471,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
